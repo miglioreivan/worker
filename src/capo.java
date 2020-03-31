@@ -6,7 +6,7 @@ public class capo extends lavoratore{
     }
 
     @Override public double stipendio(int giorni)
-    {   int guadagno
+    {   int guadagno;
         int rgiornaliera=50+1000;
         guadagno=rgiornaliera*giorni;
         return guadagno;

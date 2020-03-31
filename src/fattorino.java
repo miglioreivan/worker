@@ -6,7 +6,7 @@ public class fattorino extends lavoratore{
     }
 
     @Override public double stipendio(int giorni)
-    {   int guadagno
+    {   int guadagno;
         int rgiornaliera=50;
         guadagno=(rgiornaliera*giorni)/2;
         return guadagno;
