@@ -18,7 +18,7 @@ public class lavoratore{
     }
 
     public double stipendio(int giorni)
-    {   int guadagno
+    {   int guadagno;
         int rgiornaliera=50;
        guadagno=rgiornaliera*giorni;
        return guadagno;
