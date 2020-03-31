@@ -1,7 +1,7 @@
 
 public class impiegato extends lavoratore{
 
-    public lavoratore(String n, String c){
+    public impiegato(String n, String c){
         super(n,c);
     }
 

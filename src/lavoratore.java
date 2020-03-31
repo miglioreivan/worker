@@ -17,8 +17,10 @@ public class lavoratore{
         return cognome;
     }
 
-    public salario(int giorni){
-
+    public salario(int giorni)
+    {   int guadagno
+        int rgiornaliera=50;
+       guadagno=rgiornaliera*giorni;
     }
 
 }
