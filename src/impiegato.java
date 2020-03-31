@@ -7,7 +7,7 @@ public class impiegato extends lavoratore{
 
     @Override public double stipendio(int giorni)
     {   int guadagno;
-        int rgiornaliera=50+1000;
+        int rgiornaliera=50;
         guadagno=(rgiornaliera*giorni)+(10*giorni);
         return guadagno;
     }
