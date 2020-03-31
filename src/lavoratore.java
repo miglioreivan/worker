@@ -17,10 +17,11 @@ public class lavoratore{
         return cognome;
     }
 
-    public salario(int giorni)
+    public double stipendio(int giorni)
     {   int guadagno
         int rgiornaliera=50;
        guadagno=rgiornaliera*giorni;
+       return guadagno;
     }
 
 }

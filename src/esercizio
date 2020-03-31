@@ -1,3 +1,5 @@
+
+
 Definire la classe Lavoratore, che definisce un lavoratore con le seguenti
 caratteristiche:
 -Nome;
@@ -9,11 +11,19 @@ String getCognome()
 double stipendio(int giorni)che calcola lo stipendio moltiplicando il numero di giorni
 per la retribuzione giornaliera.
 
+
 Definire la sottoclasse Capo che sovrascrive il metodo stipendio dovendo aggiungere
 allo stipendio base 1000*ilnumero di giorni.
+
+
 Definire la sottoclasse Fattorino che sovrascrive il metodo stipendio dovendo dividere
 lo stipendio base per 2.
+
+
 Definire la sottoclasse Impiegato che sovrascrive il metodo stipendio dovendo
 aggiungere allo stipendio base 10*ilnumero di giorni.
+
+
 Scrivere la classe main dove si creano 10 elementi di tipo lavoratore :1 capo , 4
 fattorini e 5 impiegati e si devono stampre gli stipendi di ciascuno.
+
